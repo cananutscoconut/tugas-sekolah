@@ -1,0 +1,89 @@
+<head> 
+<title>web kelompok 3</title>
+</head>
+<body>
+	
+<h1>JADAWAL MATA PELAJARAAN KEJURUAN RPL</h1>
+<table border="1" cellpadding="5">
+  <tr>
+    <td>Hari</td>
+    <td>Mata pelajaran</td>
+    <td>Materi pokok</td>
+   </tr>
+  <tr>
+    <td>Senin</td>
+    <td>Pemrograman Web Dasar</td>
+    <td>Pengenalan Tag HTML, Form,dan Tabel</td>
+  </tr>
+  <tr>
+    <td>Rabu</td>
+    <td>Basis Data(Database)</td>
+    <td>Perancangan Tabel dan Konsep SQL</td>
+    </tr>
+  <tr>
+    <td>Jumat</td>
+    <td>Algoritma dan pemrograman</td>
+    <td>Logika Percabangan dan Perulagan</td>
+  </tr>
+      
+	
+</table>
+	
+</body>
+<h1> Formulir pengajuan Judul Proyek</h1>
+<p>Silahkan lengkapi data di bawah ini untuk mendaftarkan ide aplikasi yang akan anda buat</p>
+
+
+<form action="/action_page.php">
+  <fieldst>
+        <legend>Nama Lengkap Siswa:</legend>
+            <input type="nama" name="nama" placeholder="Masukan nama lengkap" />
+        <legend>Nomor Induk Siswa(NIS)</legend>
+            <input type="nomor induk siswa" name="nomor induk siswa" placeholder="Contoh: 1234567" />
+  </fieldset>
+</form>
+
+<body>
+  <p>
+	<label for="cars">pilih kelas:</label>
+  </p>
+<select id="kelas" name="kelas">
+  <option value="X RPL 1"X RPL 1> X RPL 1 </option>
+  <option value="X RPL 2">X RPL 2</option>
+  <option value="X DKV">X DKV</option>
+  <option value="XI RPL 1">XI RPL 1</option>
+</select>
+
+</body>
+
+        <div class="radio-group">
+            <label>Jenis Aplikasi yang Dirancang:</label>
+            <div class="radio-option">
+                <input type="radio" id="web" name="jenis_aplikasi" value="Web">
+                <label for="web">Aplikasi Berbasis Web</label>
+            </div>
+            <div class="radio-option">
+                <input type="radio" id="desktop" name="jenis_aplikasi" value="Desktop">
+                <label for="desktop">Aplikasi Berbasis Desktop</label>
+            </div>
+            <div class="radio-option">
+                <input type="radio" id="mobile" name="jenis_aplikasi" value="Mobile">
+                <label for="mobile">Aplikasi Mobile (Android/iOS)</label>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="deskripsi">Deskripsi Singkat Aplikasi:</label>
+          <p> </p>
+            <textarea id="deskripsi" name="deskripsi" placeholder="Tuliskan gambaran singkat aplikasi yang ingin dibuat..."></textarea>
+        </div>
+<p> </p>
+
+        <div class="btn-group">
+            <input type="submit" value="Kirim Pengajuan Proyek">
+            <input type="reset" value="Bersihkan Form">
+        </div>
+
+    </form>
+
+
